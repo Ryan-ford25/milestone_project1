@@ -1,0 +1,32 @@
+
+/*Global styles*/
+body{
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.15rem;
+    background-color: #efefef;
+}
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*Header*/
+#head{
+    border: 1mm, solid, black;
+    padding: 5px;
+}
+
+#old{
+    max-width: 100%;
+    max-height: 250px;
+    padding: 5px 2px 5px 2px;
+}
+
+/*History section*/
+#history{
+    border: 1mm, solid, black;
+    text-align: center;
+}
