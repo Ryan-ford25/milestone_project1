@@ -12,10 +12,15 @@ body{
     text-decoration: underline;
 }
 
+h2{
+    text-align: center;
+}
+
 
 /*Header*/
 #head{
-    border: 1mm, solid, black;
+    margin: 5px;
+    margin-bottom: 10px;
     padding: 5px;
 }
 
@@ -27,6 +32,29 @@ body{
 
 /*History section*/
 #history{
-    border: 1mm, solid, black;
     text-align: center;
 }
+
+/*Main*/
+
+/*Equipment section*/
+#main{
+    margin: 5px;
+}
+
+#equipment .card{
+    border: 1mm, solid, black;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card img{
+    max-width: 410px;
+}
+
+.card-container{
+    text-align: center;
+}
+
+/*How to play section*/
