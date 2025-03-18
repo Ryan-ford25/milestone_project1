@@ -16,6 +16,12 @@ h2{
     text-align: center;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
 
 /*Header*/
 #logo{
@@ -91,7 +97,19 @@ h2{
 #events{
     text-align: center;
 }
+/*Gallery*/
+#gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+#gallery > img{
+    max-width: 300px;
+    margin: auto;
+
+}
 /*Contact section*/
 li {
     display: inline;
@@ -106,3 +124,9 @@ li {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
+/*Media query: tablets and larger (768px and up)*/
+
+@media screen and (min-width: 768px) {
+    /*Header*/
+
