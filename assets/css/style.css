@@ -77,10 +77,21 @@ main{
 }
 
 /*How to play section*/
+.howto {
+    display: flex;
+    flex-direction: column;
+}
 .howto div{
     border-bottom: 1mm solid black;
     margin-bottom: 10px;
+    margin-right: 10px;
 }
+
+.howto h3,
+.howto p{
+    text-align: center;
+}
+
 
 .set{
     display: block;
@@ -140,6 +151,20 @@ li {
     /*Equipment section*/
     .cont{
         justify-content: space-around;
+    }
+
+    /*How to play section*/
+    .left img{
+        float: left;
+    }
+
+    .right img{
+        float: right;
+    }
+
+    .howto p,
+    .howto h3{
+        text-align: justify;
     }
 
 }
