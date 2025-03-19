@@ -1,6 +1,7 @@
 
 /*Global styles*/
 body{
+    max-width: 2560px;
     font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.15rem;
@@ -66,12 +67,12 @@ main{
 }
 
 .card-content{
-    max-width: 320px;
+    max-width: 300px;
     text-align: center;
 }
 
 .ecard{
-    max-width: 320px;
+    max-width: 300px;
     border: 1mm solid black;
     margin: 10px;
     padding: 5px;
@@ -79,7 +80,7 @@ main{
 }
 
 .ecard img{
-    max-width: 320px;
+    max-width: 300px;
 }
 
 /*How to play section*/
@@ -103,7 +104,7 @@ main{
     display: block;
     margin: auto;
     height: 150px;
-    max-width: 320px;
+    max-width: 300px;
 }
 
 /*Events section*/
@@ -118,10 +119,6 @@ main{
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid black;
-}
-
-#dates div:hover{
-    background-color: #4c8424;
 }
 
 #events{
@@ -160,6 +157,18 @@ li {
     justify-content: space-evenly;
 }
 
+#contact{
+    padding-left: 10px;
+    text-align: center;
+}
+
+#contact div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ceneter;
+}
+
 #socials{
     text-align: center;
     padding: 15px 0;
@@ -189,5 +198,13 @@ li {
     .howto h3{
         text-align: justify;
     }
-
 }
+
+/*Media query: Small laptops and up (1024px +)*/
+@media screen and (min-width: 1024px){
+    #dates div:hover{
+        background-color: #4c8424;
+    }
+
+ }
+
