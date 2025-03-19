@@ -127,12 +127,25 @@ main{
 #events{
     text-align: center;
 }
+
+/*Form*/
+label{
+    text-decoration: solid;
+}
+
+input{
+    max-width: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*Gallery*/
 #gallery{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 #gallery > img{
