@@ -4,7 +4,13 @@ body{
     font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.15rem;
-    background-color: #efefef;
+    background-color: #f9f8d6;
+}
+
+nav,
+footer{
+    background-color:#4c4634;
+    color: #ffff;
 }
 
 .title{
@@ -132,9 +138,9 @@ main{
 }
 /*Contact section*/
 li {
-    display: inline;
-    margin: 10px;
-    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #socials{
