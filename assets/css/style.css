@@ -120,6 +120,10 @@ main{
     border: 2px solid black;
 }
 
+#dates div:hover{
+    background-color: #4c8424;
+}
+
 #events{
     text-align: center;
 }
