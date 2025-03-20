@@ -139,11 +139,6 @@ If they have any further questions, users can use the information provided to co
 ![Gallery](/assets/readme_imgs/gallery.png)
 ---
 
-## Features Left to Implement
-
-* A seperate form page that would allow the user to sign up for specific upcoming events.
----
-
 ## Technologies Used
 
  * [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -253,6 +248,12 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ---
 
+### Fixed Bugs
+
+* After testing the site some bugs were found such as image sizes being too big for smaller screens leading to a horizontal scroll.
+    * To fix this I readjusted the image sizes to a maximum width of 300px now all images are presented correctly without a horizontal scroll.
+---
+
 ## Deployment and local development
 
 ### GitHub Pages
@@ -269,7 +270,7 @@ GitHub Pages used to deploy live version of the website.
 
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Ryan-ford25/milestone_project1)
+1. Log in to GitHub and locate [GitHub Repository milestone_project1](https://github.com/Ryan-ford25/milestone_project1)
 2. At the top of the Repository(under the main navigation) locate "Fork" button.
 3. Now you should have a copy of the original repository in your GitHub account.
 
