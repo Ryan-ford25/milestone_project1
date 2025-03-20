@@ -82,7 +82,7 @@ If they have any further questions, users can use the information provided to co
     * It is identical in design across the pages.
     * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
-![Navigation](/assets/readme_imgs/)
+![Navigation](/assets/readme_imgs/nav_bar.png)
 
 * Main heading
     * It is composed of a black and white image of bat and trap being played.
@@ -258,24 +258,24 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository milestone_project1](https://github.com/Thomas-Tomo/Lunar-Escape)
+1. Log in to GitHub and locate [GitHub Repository milestone_project1](https://github.com/Ryan-ford25/milestone_project1)
 2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
 3. Scroll down the Settings page until you locate "GitHub Pages".
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
 5. The page will automatically refresh.
-6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/Lunar-Escape/index.html) in the "GitHub Pages" section.
+6. Scroll back to locate the now-published site [link](https://ryan-ford25.github.io/milestone_project1) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Ryan-ford25/milestone_project1)
 2. At the top of the Repository(under the main navigation) locate "Fork" button.
 3. Now you should have a copy of the original repository in your GitHub account.
 
 ### Local Clone
 
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+1. Log in to GitHub and locate [GitHub Repository milestone_project1](https://github.com/Ryan-ford25/milestone_project1)
 2. Under the repository name click "Clone or download"
 3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open Git Bash
@@ -288,22 +288,23 @@ By forking the repository, we make a copy of the original repository on our GitH
 ## Credits
 
 ### Code
- * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+ * Understanding the concept of flexbox was learned through [Flex box froggy game](https://flexboxfroggy.com/)
  * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+ * Another README guide was provided by the Slack community [Youtube video](https://www.youtube.com/watch?v=l1DE7L-4eKQ)
 
 ### Content
 
  * All content was written by the developer.
- * [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) was used to decide which colors would be used for the website.
+ * [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) and [image color picker](https://imagecolorpicker.com) was used to decide which colors would be used for the website.
 
 ### Media 
 
- * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
- * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
- * [Pixlr](https://pixlr.com/) Resizing images.
+ * Media was provided by developer
+ * Microsoft designer app was used to remove the background from images.
 ---
 
 ## Acknowledgements
 
- * My mentor Mitko Bachvarov provided helpful feedback and a link to the Flexbox guide.
+ * My mentor Mitko Bachvarov provided helpful feedback and a README to look at as a guide.
  * Slack community for encouragement and information.
+ * My teacher Thomas Cowen provided me with help along the way and recommended slack channels that would help with the writing of the README file.
