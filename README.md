@@ -1,131 +1,329 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Lunar Escape
 
-Welcome USER_NAME,
+Lunar Escape Company is looking for people who want to win a trip to the Moon.
+Anybody can sign up through the form application and choose between options such as a regular flight, exploring the surface, or even both.
+The form is already set up to include both options; it is up to the user to decide.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+In the about section, there are job opportunities as well, as Lunar Escape Company is always looking for talented people to hire.
+There are links for social media contact and even an address and a phone number.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![Am I Responsive](/assets/images/am-i-responsive.PNG)
 
-## Gitpod Reminders
+[View Lunar Escape live project here](https://thomas-tomo.github.io/Lunar-Escape/)
+- - -
+## Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### [User Experience (UX)](#user-experience-ux-1)
+* [User Stories](#user-stories)
+### [Features](#features)
+* [Existing Features](#existing-features)
+### [Features Left to Implement](#features-left-to-implement-1)
+### [Design](#design-1)
+### [Technologies Used](#technologies-used-1)
+### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
+### [Testing](#testing-1)
+* [Validation Results](#validation-results)
+* [Manual Testing](#manual-testing)
+* [Lighthouse Report](#lighthouse-report)
+### [Deployment and local development](#deployment-and-local-development-1)
+* [GitHub Pages](#github-pages)
+* [Forking the GitHub Repository](#forking-the-github-repository)
+* [Local Clone](#local-clone)
+### [Credits](#credits-1)
+### [Acknowledgements](#acknowledgements-1)
+---
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+This website is meant to attract people who like space exploration and would like to win a trip to the Moon.
 
-Another blue button should appear to click: _Open Browser_.
+There is clear navigation and a form set up on the sign-up page to apply to win the trip.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+Users can contact Lunar Escape if they wish to join the company itself. They are always looking for people with talent.
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+ * First-time visitor goals
+    * Understand the main purpose of the site and learn more about the Lunar Escape company.
+    * Easily navigate throughout the site.
+    * Find the Sign Up form and fill it out.
+ * Returning visitor goals
+    * Find out information about the company.
+    * Locate contact information.
+    * Review the site's extensive gallery.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ * Frequent user goals
+    * Check if there are any new packages to apply for in the sign-up form.
+    * Review the gallery for any new photos.
+- - -
 
-To log into the Heroku toolbelt CLI:
+## Features
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* This website is targeting people who want to win a trip to the moon.
+* They can do that by navigating to the sign-up page and filling out a form.
+* Responsive on all device sizes.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### Existing Features
 
-### Connecting your Mongo database
+* Navigation bar
+    * It is featured and fixed on all three pages and the form-received page.
+    * Includes links to the logo, home page, gallery, and sign-up page.
+    * It is identical in design across the pages.
+    * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+![Navigation](/assets/images/nav-bar.PNG)
 
-------
+* Main heading
+    * It is composed of a background image featuring "stars in the night sky".
+    * Main heading, which is unique for each page:
+        * The home page is comprised of 'Are you ready to explore the moon?"
+        * Gallery is made up of 'Welcome to our Gallery'.
+        * The sign up page is comprised of 'Application Form'
+        * appllication-received is comprised of 'Application Received'.
 
-## Release History
+![Main heading](/assets/images/main-heading-image.PNG)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Section one, Dreams and info
+    * This section contains a short heading followed by images.
+    * It gives us a brief description of what we can accomplish through this website.
 
-**June 18, 2024,** Add Mongo back into template
+![Dreams and Info](/assets/images/section-one.PNG)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+* Section two, 'How is it possible?'
+    * Information about commercial rocket.
+    * Link to the Sign Up form page to apply for a lucky draw.
 
-**May 28 2024:** Fix Mongo and Links installs
+![How is it possible?](/assets/images/section-two.PNG)
 
-**April 26 2024:** Update node version to 16
+* About Lunar Escape
+    * This section will allow users to get information about the Lunar Escape Company.
+    * Opportunity to join the company because they are always looking for talented people.
+    * Address and contact number.
 
-**September 20 2023:** Update Python version to 3.9.17.
+![About Lunar Escape](/assets/images/section-three.PNG)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* Footer
+    * Links to the social media for Lunar Escape will open in a new tab to allow easy navigation for the user.
+    * It is valuable to the user as it gives them an easy contact option via social media.
+    * Hold copyright information about the author. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Footer](/assets/images/footer-image.PNG)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* Gallery 
+    * The gallery will provide the user with supporting images to see shuttle launches, flights, and astronauts.
+    * This section is valuable to the user as they will see our previous flights and astronauts on the Moon.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Gallery](/assets/images/gallery-image.PNG)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* The Sign Up page
+    * This page will allow users to choose a package, sign up for it, and win a trip to the moon in a lucky draw.
+    * The user can choose a regular flight and explore the surface of both of these to be in the lucky draw.
+    * In the future, there might be more packages to choose from. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Sign Up Form](/assets/images/form-image.PNG)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* The Sign Up received page
+    * Form received
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![Form received](/assets/images/form-received-image.PNG)
 
 ---
 
-Happy coding!
+## Features Left to Implement
+
+* Additional packages might be available in the form section.
+* Updated gallery with additional images.
+* In the future, there could be an online academy that will teach aerospace engineering, which you could join through this website.
+---
+
+## Design
+
+ * Colour Scheme
+    * Primary colors used on the website: ![Color Scheme](/assets/images/colors-used.png)
+
+ * Typography
+    * Kanit font is main font used throughout the ite with sans-serif as its fallback font in case Kanit doesn't import for some reasson.
+
+ * Wireframes
+    * Pen and paper in a notebook: simple and effective.
+---
+
+## Technologies Used
+
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+---
+
+## Frameworks, Libraries & Programs Used
+
+ * [Gitpod](https://www.gitpod.io/)
+    * To write the code.
+ * [Git](https://git-scm.com/)
+    * for vesion control.
+ * [Github](https://github.com/)
+    * Deployment of the website and storing the files online.
+ * [Google Fonts](https://fonts.google.com/)
+    * Import main font the website.
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mockup picture for the README file.
+---
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
+
+ * [W3C Markup Validtor](https://validator.w3.org/)
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+### Validation results
+
+<details>
+<summary>index.html
+</summary>
+
+![Home Page validation result](/assets/images/html-validation.PNG)
+</details>
+<details>
+<summary>gallery.html
+</summary>
+
+![Gallery validation result](/assets/images/html-validation.PNG)
+</details>
+<details>
+<summary>sign-up.html
+</summary>
+
+![Sign Up page validation result](/assets/images/html-validation.PNG)
+</details>
+<details>
+<summary>form-received.htmml
+</summary>
+
+![Application Received validation result](/assets/images/html-validation.PNG)
+</details>
+<details>
+<summary>style.css
+</summary>
+
+![CSS validation result](/assets/images/css-validation.PNG)
+</details>
+
+### Manual Testing
+
+* The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
+* The website was viewed on a desktop computer, laptop, and Samsung Galaxy A52 mobile phone.
+* A large amount of testing was done to ensure links between pages are working correctly on all pages.
+* Family and friends were asked to review the website for a better understanding of the user experience.
+* Dev Tools was used to test how the site looks on various screen sizes.
+
+### Lighthouse Report
+
+#### Mobile analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page lighthouse report](/assets/images/home-mobile-report.PNG)
+</details>
+<details>
+<summary>Gallery
+</summary>
+
+![Gallery lighthouse report](/assets/images/gallery-mobile-report.PNG)
+</details>
+<details>
+<summary>Sign Up
+</summary>
+
+![Sign Up Page lighthouse report](/assets/images/sign-up-mobile-report.PNG)
+</details>
+<details>
+<summary>Application Received
+</summary>
+
+![Application received lighthouse report](/assets/images/form-received-mobile-report.PNG)
+</details>
+
+#### Desktop analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page lighthouse report](/assets/images/home-page-report.PNG)
+</details>
+<details>
+<summary>Gallery
+</summary>
+
+![Gallery lighthouse report](/assets/images/gallery-report.PNG)
+</details>
+<details>
+<summary>Sign Up
+</summary>
+
+![Sign Up Page lighthouse report](/assets/images/sign-up-report.PNG)
+</details>
+<details>
+<summary>Application Received
+</summary>
+
+![Application received lighthouse report](/assets/images/form-received-report.PNG)
+</details>
+
+---
+
+## Deployment and local development
+
+### GitHub Pages
+
+GitHub Pages used to deploy live version of the website.
+1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
+3. Scroll down the Settings page until you locate "GitHub Pages".
+4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
+5. The page will automatically refresh.
+6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/Lunar-Escape/index.html) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
+
+1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+2. At the top of the Repository(under the main navigation) locate "Fork" button.
+3. Now you should have a copy of the original repository in your GitHub account.
+
+### Local Clone
+
+1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+2. Under the repository name click "Clone or download"
+3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone` and then paste The URL copied in the step 3.
+7. Press Enter and your local clone will be created.
+
+---
+
+## Credits
+
+### Code
+ * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+ * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+### Content
+
+ * All content was written by the developer.
+ * [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) was used to decide which colors would be used for the website.
+
+### Media 
+
+ * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
+ * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
+ * [Pixlr](https://pixlr.com/) Resizing images.
+---
+
+## Acknowledgements
+
+ * My mentor Mitko Bachvarov provided helpful feedback and a link to the Flexbox guide.
+ * Slack community for encouragement and information.
