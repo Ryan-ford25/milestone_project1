@@ -1,15 +1,11 @@
-# Lunar Escape
+# Bat and Trap league
 
-Lunar Escape Company is looking for people who want to win a trip to the Moon.
-Anybody can sign up through the form application and choose between options such as a regular flight, exploring the surface, or even both.
-The form is already set up to include both options; it is up to the user to decide.
+The Bat and Trap league website has been created to give information on the old pub game to new or returning players about how it's played and where it came from. 
+Users of the website can sign up to our newsletter in order to keep updated on events and information aswell as use the contact information provided to ask any further questions.
 
-In the about section, there are job opportunities as well, as Lunar Escape Company is always looking for talented people to hire.
-There are links for social media contact and even an address and a phone number.
+![Am I Responsive](/assets/readme_imgs/am_i_responsive.png)
 
-![Am I Responsive](/assets/images/am-i-responsive.PNG)
-
-[View Lunar Escape live project here](https://thomas-tomo.github.io/Lunar-Escape/)
+[Vuew the Live project here.](https://ryan-ford25.github.io/milestone_project1/)
 - - -
 ## Table of Contents
 
@@ -35,117 +31,117 @@ There are links for social media contact and even an address and a phone number.
 
 ## User Experience (UX)
 
-This website is meant to attract people who like space exploration and would like to win a trip to the Moon.
+This website is meant to attract people who are interested in learning about the game Bat and Trap.
 
-There is clear navigation and a form set up on the sign-up page to apply to win the trip.
+There is clear navigation and a form at the bottom where uses can sign-up to a newsletter to keep updated.
 
-Users can contact Lunar Escape if they wish to join the company itself. They are always looking for people with talent.
+If they have any further questions, users can use the information provided to contact the league chairman personally.
 
 ### User Stories
 
  * First-time visitor goals
-    * Understand the main purpose of the site and learn more about the Lunar Escape company.
+    * Understand the main purpose of the site and learn more about how to play Bat and Trap.
     * Easily navigate throughout the site.
     * Find the Sign Up form and fill it out.
  * Returning visitor goals
-    * Find out information about the company.
+    * Find out information about the history of the game or upcoming events.
     * Locate contact information.
-    * Review the site's extensive gallery.
+    * Review the site's gallery page.
 
  * Frequent user goals
-    * Check if there are any new packages to apply for in the sign-up form.
+    * Check for any new events listed.
     * Review the gallery for any new photos.
 - - -
 
+## Design
+
+ * Colour Scheme
+    * Primary colors used on the website: ![Color Scheme](/assets/readme_imgs/color_scheme.png)
+
+ * Typography
+    * Arial is the main font used with sans-serif as its fallback font in case Arial doesn't import for some reason.
+
+ * Wireframes
+    * To create the wireframes I used an app called 'balsamiq'.
+
+[My wireframes](assets/readme_imgs/wireframes.png)
+---
+
+
 ## Features
 
-* This website is targeting people who want to win a trip to the moon.
-* They can do that by navigating to the sign-up page and filling out a form.
+* This website is targeting people who want to learn about Bat and Trap.
+* They can do that by navigating the webpage and use the contact information if they have any unanswered    questions.
 * Responsive on all device sizes.
 
 ### Existing Features
 
 * Navigation bar
-    * It is featured and fixed on all three pages and the form-received page.
-    * Includes links to the logo, home page, gallery, and sign-up page.
+    * It is featured and fixed on both the home page and gallery page and the success page for the form.
+    * Includes links to the home page, gallery page, equipment section, how to play sectionm upcoming events and contact section.
     * It is identical in design across the pages.
     * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
-![Navigation](/assets/images/nav-bar.PNG)
+![Navigation](/assets/readme_imgs/)
 
 * Main heading
-    * It is composed of a background image featuring "stars in the night sky".
-    * Main heading, which is unique for each page:
-        * The home page is comprised of 'Are you ready to explore the moon?"
-        * Gallery is made up of 'Welcome to our Gallery'.
-        * The sign up page is comprised of 'Application Form'
-        * appllication-received is comprised of 'Application Received'.
+    * It is composed of a black and white image of bat and trap being played.
+    * Main heading, which is different on the home page and success page:
+        * Home page is comprised of "Bat and Trap league".
+        * The success page for the form submission is made of "Thankyou for Signing up to our newsletter"
 
-![Main heading](/assets/images/main-heading-image.PNG)
 
-* Section one, Dreams and info
-    * This section contains a short heading followed by images.
-    * It gives us a brief description of what we can accomplish through this website.
+![Main heading](/assets/readme_imgs/heading.png)
 
-![Dreams and Info](/assets/images/section-one.PNG)
+* Section one, "A brief history"
+    * This section gives us a brief description of what bat and trap is and where it came from
 
-* Section two, 'How is it possible?'
-    * Information about commercial rocket.
-    * Link to the Sign Up form page to apply for a lucky draw.
+![A brief history](/assets/readme_imgs/section-1.png)
 
-![How is it possible?](/assets/images/section-two.PNG)
+* Section two, "Equipment"
+    * This section contains cards about the equipment that is used.
+    * The cards contain an image and short description of the equipment.
 
-* About Lunar Escape
-    * This section will allow users to get information about the Lunar Escape Company.
-    * Opportunity to join the company because they are always looking for talented people.
-    * Address and contact number.
+![Equipment](/assets/readme_imgs/section-2.png)
 
-![About Lunar Escape](/assets/images/section-three.PNG)
+* Section three, "How to play"
+    * The third section has five parts which explain how the game is played.
+    * Each of the parts contain an image that represents it and a short description.
 
-* Footer
-    * Links to the social media for Lunar Escape will open in a new tab to allow easy navigation for the user.
-    * It is valuable to the user as it gives them an easy contact option via social media.
-    * Hold copyright information about the author. 
+![How to play](/assets/readme_imgs/section-3.png)
 
-![Footer](/assets/images/footer-image.PNG)
+* Section 4, "Upcoming events"
+    * In the fourth section are cards with titles and dates of upcoming events.
 
-* Gallery 
-    * The gallery will provide the user with supporting images to see shuttle launches, flights, and astronauts.
-    * This section is valuable to the user as they will see our previous flights and astronauts on the Moon.
+![Upcoming Events](/assets/readme_imgs/section-4.png)
 
-![Gallery](/assets/images/gallery-image.PNG)
+* Newsletter Sign Up form
+    * The form allows users to input their information in order to be kept up to date with emails about upcoming events.
 
-* The Sign Up page
-    * This page will allow users to choose a package, sign up for it, and win a trip to the moon in a lucky draw.
-    * The user can choose a regular flight and explore the surface of both of these to be in the lucky draw.
-    * In the future, there might be more packages to choose from. 
-
-![Sign Up Form](/assets/images/form-image.PNG)
+![Newsletter](/assets/readme_imgs/newsletter-form.png)
 
 * The Sign Up received page
     * Form received
 
-![Form received](/assets/images/form-received-image.PNG)
+![Form received](/assets/readme_imgs/success.png)
 
+* Footer
+    * Links to the social media for the bat and trap league open in a new tab to allow easy navigation for the user.
+    * It is valuable to the user as it gives them an easy contact option via social media.
+    * Alternative contact information such as an email address and phone number is provided for the user to use if they wish to. 
+
+![Footer](/assets/readme_imgs/contact_section.png)
+
+* Gallery 
+    * The gallery page provides the user with images to see the game being played in action, trophies and team images.
+    * This section is valuable to the user as it will give them a pyhsical image of what the game is rather than having to rely on their imagination.
+
+![Gallery](/assets/readme_imgs/gallery.png)
 ---
 
 ## Features Left to Implement
 
-* Additional packages might be available in the form section.
-* Updated gallery with additional images.
-* In the future, there could be an online academy that will teach aerospace engineering, which you could join through this website.
----
-
-## Design
-
- * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](/assets/images/colors-used.png)
-
- * Typography
-    * Kanit font is main font used throughout the ite with sans-serif as its fallback font in case Kanit doesn't import for some reasson.
-
- * Wireframes
-    * Pen and paper in a notebook: simple and effective.
+* A seperate form page that would allow the user to sign up for specific upcoming events.
 ---
 
 ## Technologies Used
@@ -157,16 +153,19 @@ Users can contact Lunar Escape if they wish to join the company itself. They are
 
 ## Frameworks, Libraries & Programs Used
 
- * [Gitpod](https://www.gitpod.io/)
+ * Visual Studio Code desktop app
     * To write the code.
  * [Git](https://git-scm.com/)
-    * for vesion control.
+    * for version control.
  * [Github](https://github.com/)
     * Deployment of the website and storing the files online.
  * [Google Fonts](https://fonts.google.com/)
     * Import main font the website.
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mockup picture for the README file.
+* [Bootstrap](https://getbootstrap.com/)
+    * To import and use pre-existing code to speed up the development process.
+
 ---
 
 ## Testing
@@ -182,39 +181,32 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>index.html
 </summary>
 
-![Home Page validation result](/assets/images/html-validation.PNG)
+![Home Page validation result](/assets/readme_imgs/htmlvalidator.png)
 </details>
 <details>
 <summary>gallery.html
 </summary>
 
-![Gallery validation result](/assets/images/html-validation.PNG)
+![Gallery validation result](/assets/readme_imgs/htmlvalidator.png)
 </details>
 <details>
-<summary>sign-up.html
+<summary>success.html
 </summary>
 
-![Sign Up page validation result](/assets/images/html-validation.PNG)
-</details>
-<details>
-<summary>form-received.htmml
-</summary>
-
-![Application Received validation result](/assets/images/html-validation.PNG)
+![Application Received validation result](/assets/readme_imgs/htmlvalidator.png)
 </details>
 <details>
 <summary>style.css
 </summary>
 
-![CSS validation result](/assets/images/css-validation.PNG)
+![CSS validation result](/assets/readme_imgs/cssvalidator.png)
 </details>
 
 ### Manual Testing
 
-* The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
-* The website was viewed on a desktop computer, laptop, and Samsung Galaxy A52 mobile phone.
+* The website was tested on Google Chrome.
+* The website was viewed on a desktop computer and Samsung Galaxy A52s 5G mobile phone.
 * A large amount of testing was done to ensure links between pages are working correctly on all pages.
-* Family and friends were asked to review the website for a better understanding of the user experience.
 * Dev Tools was used to test how the site looks on various screen sizes.
 
 ### Lighthouse Report
@@ -224,25 +216,19 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report](/assets/images/home-mobile-report.PNG)
+![Home Page lighthouse report](/assets/readme_imgs/mobile_lighthouse.png)
 </details>
 <details>
 <summary>Gallery
 </summary>
 
-![Gallery lighthouse report](/assets/images/gallery-mobile-report.PNG)
-</details>
-<details>
-<summary>Sign Up
-</summary>
-
-![Sign Up Page lighthouse report](/assets/images/sign-up-mobile-report.PNG)
+![Gallery lighthouse report](/assets/readme_imgs/gallery_mobile_lighthouse.png)
 </details>
 <details>
 <summary>Application Received
 </summary>
 
-![Application received lighthouse report](/assets/images/form-received-mobile-report.PNG)
+![Application received lighthouse report](/assets/readme_imgs/success_mobile_lighthouse.png)
 </details>
 
 #### Desktop analysis
@@ -250,25 +236,19 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report](/assets/images/home-page-report.PNG)
+![Home Page lighthouse report](/assets/readme_imgs/lighthouse_results.png)
 </details>
 <details>
 <summary>Gallery
 </summary>
 
-![Gallery lighthouse report](/assets/images/gallery-report.PNG)
-</details>
-<details>
-<summary>Sign Up
-</summary>
-
-![Sign Up Page lighthouse report](/assets/images/sign-up-report.PNG)
+![Gallery lighthouse report](/assets/readme_imgs/gallery_lighthouse.png)
 </details>
 <details>
 <summary>Application Received
 </summary>
 
-![Application received lighthouse report](/assets/images/form-received-report.PNG)
+![Application received lighthouse report](/assets/readme_imgs/success_lighthouse.png)
 </details>
 
 ---
@@ -278,7 +258,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+1. Log in to GitHub and locate [GitHub Repository milestone_project1](https://github.com/Thomas-Tomo/Lunar-Escape)
 2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
 3. Scroll down the Settings page until you locate "GitHub Pages".
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
