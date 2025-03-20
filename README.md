@@ -153,7 +153,7 @@ If they have any further questions, users can use the information provided to co
 
 ## Frameworks, Libraries & Programs Used
 
- * Visual Studio Code desktop app
+ * [Visual Studio Code](https://code.visualstudio.com) desktop app
     * To write the code.
  * [Git](https://git-scm.com/)
     * for version control.
